@@ -9,6 +9,14 @@ cask "aiusagebar" do
 
   app "aiUsageBar.app"
 
+  postflight do
+    system_command "xattr",
+                   args: ["-d", "com.apple.quarantine", "#{appdir}/aiUsageBar.app"],
+                   sudo: false
+  rescue
+    nil
+  end
+
   zap trash: [
     "~/Library/Preferences/com.mfarisa.aiUsageBar.plist",
   ]
