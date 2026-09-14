@@ -1,8 +1,8 @@
-# 🍺 homebrew-tap
+# homebrew-tap
 
-Official Homebrew Tap repository for **[aiUsageBar](https://github.com/MFarisA/aiUsage)** — A 100% native macOS SwiftUI Menu Bar AI token usage tracker for Google Antigravity, Gemini, Claude, and GPT models.
+Official Homebrew Tap repository for **[aiUsageBar](https://github.com/MFarisA/aiUsage)** — A native macOS SwiftUI Menu Bar AI token usage tracker for Google Antigravity, Gemini, Claude, and GPT models.
 
-## 📦 Installation
+## Installation
 
 To install **aiUsageBar** via Homebrew Cask:
 
@@ -11,7 +11,7 @@ brew tap MFarisA/tap
 brew install --cask aiusagebar
 ```
 
-## 🔄 Upgrade
+## Upgrade
 
 To update to the latest version:
 
