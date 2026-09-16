@@ -1,6 +1,6 @@
 cask "aiusagebar" do
-  version "1.0.0"
-  sha256 "f0e7026f57e0f2ca23039dd7fd149789f4d7244748376dde704d15199ebb37b3"
+  version "1.0.1"
+  sha256 "3c7fa959adabad10427f1371146e4a700c0dedbd18f5f601fd05f2ec6059f656"
 
   url "https://github.com/MFarisA/aiUsage/releases/download/v#{version}/aiUsageBar.dmg"
   name "aiUsageBar"
